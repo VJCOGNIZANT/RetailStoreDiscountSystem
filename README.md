@@ -18,11 +18,11 @@ To calculate discount on items
 ## Test
 *DiscountCalculatorImplTest class covers all the possible scenerios.
 
-##COde Coverage
+## COde Coverage
 * install eclema to your IDE.
 * right clic k and choose coverage as JUnit to see the code coverage.
 
-##Sonar Report Generation
+## Sonar Report Generation
 *Install sonar cube locally, run the instance and open "http://localhost:9000"
 *Installl sonarLint from marketplace and restart IDE.
 * Open your project in command prompt and run "mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dmaven.test.failure.ignore=true" command to run sonar on the code.
